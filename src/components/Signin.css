@@ -1,0 +1,15 @@
+
+  @media screen and (max-width: 800px) {
+    .bg-cover {
+      background-color: black;
+      height: max-content;
+    }
+  }
+  @media screen and (min-width: 800px) {
+    .bg-cover {
+      background-image: url(../assets/image.jpg);
+      background-position: center;
+      background-size: cover;
+      height: max-content;
+    }
+  }
